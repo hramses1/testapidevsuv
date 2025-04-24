@@ -1,0 +1,11 @@
+Durante las pruebas se verificó que la API de Demoblaze permite registrar y autenticar usuarios correctamente, retornando un token cuando las credenciales son válidas. Sin embargo, se detectaron algunos detalles importantes:
+
+Las respuestas no siguen el formato JSON estándar: el login devuelve un string plano con el token.
+
+Todos los casos, incluso los errores, devuelven código 200, lo que obliga a validar siempre el contenido del body.
+
+Los mensajes de error son cadenas de texto simples, no objetos estructurados.
+
+No hay mecanismos para limitar registros repetidos ni controlar abusos.
+
+En general, la API cumple su función, pero tiene limitaciones que podrían mejorarse para entornos más seguros y estructurados.

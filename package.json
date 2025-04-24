@@ -1,0 +1,23 @@
+{
+  "name": "testapidevsuv",
+  "version": "1.0.0",
+  "description": "test api for devsu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hramses1/testapidevsuv.git"
+  },
+  "author": "Hector Arismendi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hramses1/testapidevsuv/issues"
+  },
+  "homepage": "https://github.com/hramses1/testapidevsuv#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^9.7.0",
+    "cypress": "^14.3.2"
+  }
+}
